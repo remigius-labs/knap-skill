@@ -55,6 +55,25 @@ knap batch lead.md --data leads.json --output-dir notes \
   --filename '{{ date | date:"YYYY-MM-DD" }}-{{ name | safe_name | kebab }}.md' --dry-run
 ```
 
+Output, `notes/2026-09-10-ada.md`:
+
+```markdown
+---
+type: lead
+date: 2026-09-10
+status: open
+tags:
+- lead
+- friend
+---
+# Ada
+
+Channel: unknown
+- First call done
+- Sent the deck
+Related: [[Ada]], [[Lovelace Labs]]
+```
+
 ## How it was built
 
 Test-driven: a fresh agent with no skill could not produce a single Knap command. The skill was written from real runs, then a fresh agent with the skill rendered a batch correctly first try. Audited with a NASA Power of Ten pass on the executable content: 10/10.
