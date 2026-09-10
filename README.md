@@ -76,6 +76,6 @@ Related: [[Ada]], [[Lovelace Labs]]
 
 ## How it was built
 
-Test-driven: a fresh agent with no skill could not produce a single Knap command. The skill was written from real runs, then a fresh agent with the skill rendered a batch correctly first try. Audited with a NASA Power of Ten pass on the executable content: 10/10.
+Test-driven: a fresh agent with no skill could not produce a single Knap command. The skill was written from real runs, then a fresh agent with the skill rendered a batch correctly first try.
 
 MIT.
